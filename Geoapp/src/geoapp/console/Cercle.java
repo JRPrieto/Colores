@@ -1,4 +1,4 @@
-package Formas.geoapp.console;
+package geoapp.console;
 
 
 public class Cercle {

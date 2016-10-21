@@ -1,8 +1,8 @@
-package Formas.geoapp.console;
+package geoapp.console;
 
 
-public class Sphere {
-   //<editor-fold defaultstate="collapsed" desc="Estat: Atributs">
+public class Square {
+    //<editor-fold defaultstate="collapsed" desc="Estat: Atributs">
     private double side;
     
     //</editor-fold>
@@ -23,9 +23,10 @@ public class Sphere {
     public double getArea(){
         return Math.pow(getSide(), 2);
     }
-    public Sphere(double side){
+    public Square(double side){
     this.setSide(side);
 }
     //</editor-fold>
     
 }
+

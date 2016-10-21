@@ -1,7 +1,7 @@
-package Formas.geoapp.console;
+package geoapp.console;
 
 
-public class Rectangle {
+public class Sphere {
    //<editor-fold defaultstate="collapsed" desc="Estat: Atributs">
     private double side;
     
@@ -23,7 +23,7 @@ public class Rectangle {
     public double getArea(){
         return Math.pow(getSide(), 2);
     }
-    public Rectangle(double side){
+    public Sphere(double side){
     this.setSide(side);
 }
     //</editor-fold>

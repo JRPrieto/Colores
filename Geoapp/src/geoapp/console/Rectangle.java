@@ -1,8 +1,8 @@
-package Formas.geoapp.console;
+package geoapp.console;
 
 
-public class Square {
-    //<editor-fold defaultstate="collapsed" desc="Estat: Atributs">
+public class Rectangle {
+   //<editor-fold defaultstate="collapsed" desc="Estat: Atributs">
     private double side;
     
     //</editor-fold>
@@ -23,10 +23,9 @@ public class Square {
     public double getArea(){
         return Math.pow(getSide(), 2);
     }
-    public Square(double side){
+    public Rectangle(double side){
     this.setSide(side);
 }
     //</editor-fold>
     
 }
-
